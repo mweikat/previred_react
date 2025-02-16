@@ -1,0 +1,23 @@
+a{
+    font-size: inherit;
+}
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.search-input {
+    flex-grow: 1;
+    margin-left: 1rem; /* Espacio entre el botón y el input */
+}
+
+.search-input input {
+    width: 100%;
+}

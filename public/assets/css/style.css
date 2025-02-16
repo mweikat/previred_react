@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.error-msg{
+    text-align: center;
+    font-size: small;
+    color: red; 
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
