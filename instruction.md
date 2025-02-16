@@ -76,6 +76,7 @@ sudo nano /etc/nginx/sites-available/default
 ```
 Reemplaza el contenido con:
 
+```sh
 nginx
 
 
@@ -89,13 +90,14 @@ server {
         try_files $uri /index.html;
     }
 }
+```
 Guarda los cambios (CTRL + X, luego Y, luego Enter).
 
 4️⃣ Reiniciar NGINX
-sh
 
-
+```sh
 sudo systemctl restart nginx
+```
 La aplicación estará disponible en http://tu-servidor-ip o http://dominio.com.
 
 🚀 Conclusión
